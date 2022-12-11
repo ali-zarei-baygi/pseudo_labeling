@@ -1,0 +1,25 @@
+version: "3.0"
+
+intents:
+  - deny+request_info
+  - transportation+request_info
+  - book+restaurant+request_info
+  - find+restaurant+details
+  - book
+  - affirm+request_info
+  - stay+request_info
+  - find+stay+details
+  - book+stay+details
+  - attraction+request_info
+  - thanks+goodbye
+  - transportation+taxi+details
+  - deny+thanks
+  - find+attraction+details
+  - request_info
+  - details
+  - transportation+train+details
+  - transportation+details
+  - thanks
+
+
+

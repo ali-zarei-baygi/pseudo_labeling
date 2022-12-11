@@ -1,0 +1,848 @@
+utterances,labels
+"No thank you, could you provide me with the phone number and postcode?",deny+request_info
+No thank you. Can I have the phone number for it though?,deny+request_info
+"no, but could you please give me the address and the phone number?",deny+request_info
+No. Which one of the two would you recommend?,deny+request_info
+"No, I don't need a booking, just the address.",book+request_info
+"No need to book it, but can you please tell me their phone number?",book+request_info
+No I do not. I do need the phone number and entrance fee.,deny+request_info
+"Not really, if you find a good one, please give me the postcode.",deny+request_info
+"Yes please, just one ticket. Could I get the reference number for the train you book please?",transportation+request_info
+That is a good train. Could you give me the train id? How long is that train ride as well?,transportation+request_info
+I don't need to book just yet. But can I get the arrival time and price per ticket?,transportation+request_info
+I'll want to leave by 11:30. Please let me know the car type of the taxi and a contact number.,transportation+request_info
+Sunday and can you please give me the price and travel time?,transportation+request_info
+I will also need a taxi to pick me up by 24:30. I need the contact number and car type please.,transportation+request_info
+"Would you be able to send that in a different format? I just need a price and travel time, that list is confusing.",transportation+request_info
+"No, but could you please show me the specific travel time?",transportation+request_info
+"No thank you, I just need to know the departure time.",transportation+request_info
+"Yes, please. Any of those will do, but before you book it, could you let me know what the train ID, travel time, and ticket price will be?",transportation+request_info
+I am also looking for a train from stansted airport that leaves after 16:45. Please give me the phone number and arrival time. ,transportation+request_info
+Can I please have the phone number for the restaurant?,restaurant+request_info
+"Yes, I'd like an expensive restaurant in the west. I'm not particular about the food, what do you recommend? What is the phone & postcode?",restaurant+request_info
+That sounds great. Can you book me a table for 3 on Friday at 18:30?,book+restaurant+details
+Could you tell me where the resturant is located?,restaurant+request_info
+What is the phone number of resturant?,restaurant+request_info
+Where the resturant is located? Is it close to me?,restaurant+request_info
+In which area of the town the resturant is located?,restaurant+request_info
+Please give me the address and phone number of the resturant.,restaurant+request_info
+What type of food do they serve?,restaurant+request_info
+I would really like indian food on saturday in the west area. If you can book it for 1 person at 10:15 or 9:15 I don't care which place.,book+restaurant+details
+"Could I get the address for the Dojo Noodle Bar, however?",restaurant+request_info
+"Great, can you book a table for 8 people at 19:00 on wednesday",book+restaurant+details
+"Ok, can I please book a table for 6 people at 11:15 on the same day?",book+restaurant+details
+I'd like to book a table for 2 on Tuesday at 11:45. Would that be possible?,book+restaurant+details
+"No particular food style, but I need a reservation for 1 on Saturday at 11:30",book+restaurant+details
+"Yes, please. Can you book a table for 6 people at 19:45 on tuesday?",book+restaurant+details
+"Yes, can you find me an expensive Russian restaurant?",find+restaurant+details
+I am looking for a particular restaurant. It's Efes Restaurant.,find+restaurant+details
+I'm looking for a cheap place to dine. I want it to be on the west side of town.,find+restaurant+details
+"I'd like to find a restaurant called Cotto, please.",find+restaurant+details
+I would like to find an Indian restaurant that is in the expensive range.,find+restaurant+details
+I am on a budget and need a cheap place to eat.,find+restaurant+details
+Yes. Can you please find me an expensive restaurant in the south that serves mexican food?,find+restaurant+details
+I'm looking for a Japanese restaurant in the north of the centre.,find+restaurant+details
+I need a cheap place to dine at in the north.,find+restaurant+details
+I was thinking of trying some new cuisine while we are in town. Something expensive.,find+restaurant+details
+Could you also find me an italian restaurant in the same area?,find+restaurant+details
+What is the closest asian restaurant that is cheap?,find+restaurant+details
+"Before you go, could you help me find an expensive restaurant in the city centre?",find+restaurant+details
+"Before booking, I would also like to know the travel time, price, and departure time please",transportation+request_info
+Can you book this for 3 people? Reference please?,book+request_info
+Can you book that and give me a reference number?,book+request_info
+"I need the booking for 8 people, and I would like a reference number",book+request_info
+I need to book this for 6 people please. I will also need to get the reference number.,book+request_info
+go ahead and book it and please send me the address,book+request_info
+"Yes, I'd like to book 7 tickets.",book
+Yes please book it for me.,book
+Yes please. Can you make the booking for 7 people?,book
+that should be after 16:15. book for 6 people,book
+Can you book it for me?,book
+"No thank you, I will book myself at a later point.",book
+I would like to book for Tuesday at 12:45.,book
+"Yeah, can you book 4 tickets for me?",book
+Wonderful. Can you make a reservation for Friday at 17:15 for 3 people?,book
+That sounds great. Can you please book it for four people?,book
+"Yes, that sounds fine. Can you book me tickets for 8 people, please?",book
+"Yes, please. Can you book me 5 tickets please?",book
+Yes that sounds like a good fit for me. Please book it for me.,book
+"Yes, please. I'd also like to know the postcode?",affirm+request_info
+"Yes, please. May have I have phone number and postcode?",affirm+request_info
+Sure. Are they open at 11:15?,affirm+request_info
+Cotto is fine. Please get me their address and postcode,affirm+request_info
+"Yes, thats great. Can you give me their postcode please?",affirm+request_info
+"That would be great. Can I get the post code, please?",affirm+request_info
+"Yes, and please let me know the reference number in case I need to make any changes later.",affirm+request_info
+"Yes please, and I'm going to need the address.",affirm+request_info
+"That sounds good, what's the phone number?",affirm+request_info
+Sounds good. What's their address?,affirm+request_info
+Sounds fantastic. Can I get the phone number? And is there an entrance fee?,affirm+request_info
+"That sounds nice! Can I just get their phone number, address, and postcode?",affirm+request_info
+Please give me aylesbray lodge's address. I am not booking now.,stay+request_info
+It sounds great but does it also have free wifi and parking. I really need that.,stay+request_info
+Can you please give me the price range and the hotel type?,stay+request_info
+What is the address of Acorn Guest House?,stay+request_info
+"Yes. Please book it for Monday. 3 nights, 6 people. I'll also need the reference number.",stay+request_info
+"Yes, I also need to book the aylesbray lodge guest house. Starting Saturday. 3 nights, 5 people. Please inclue a reference number.",stay+request_info
+Is it available for a single night stay?,stay+request_info
+What is the star rating for that hotel? Can you check that for me?,stay+request_info
+Yes please book one for me. Send me the address phone post code and reference number. Thanks,book+request_info
+I'll take either one but can you check and see if they include both internet and wifi? I'm on a real tight budget.,stay+request_info
+"Okay, I will book it at a later time. I just need the star of the hotel, address, and hotel type.",stay+request_info
+That sounds good. What is the postcode for the Kirkwood house?,stay+request_info
+I need some information on the A and B Guest House.,stay+request_info
+I'm looking for a guesthouse to stay in with free wifi.,find+stay+details
+"Hi, I am looking for a guesthouse with free parking. Can you help me?",find+stay+details
+I'm looking to get some information on the worth house hotel.,stay+request_info
+Any part of town just a guesthouse with free parking and free wifi.,find+stay+details
+"Hmm, well how about checking for a hotel instead that is expensive with free parking and wifi?",find+stay+details
+It's just one night for 4 people.,find+stay+details
+"I actually am looking for a guesthouse, not a hotel.",find+stay+details
+Is there a guesthouse that might be in the cheaper price range in the same area?,find+stay+details
+Hi I am looking for a hotel called finches bed and breakfast,find+stay+details
+Hi I'm looking for lodging in Cambridge that includes free wifi and is upscale and expensive,find+stay+details
+What about in the centre? A cheap 4 star hotel that includes free parking,find+stay+details
+"Yes, please recommend one that can accommodate 8 people for 2 nights starting on Thursday",find+stay+details
+"No particular price range, but I would like it to be a 4 star hotel.",find+stay+details
+"actually i want a guesthouse, specifically",find+stay+details
+I am also looking for a place to stay. I need a guesthouse with free wifi.,find+stay+details
+"That is all, I anticipate my stay in Cambridge with baited breath now, Have a great day.",find+stay+details
+Can you book that for 7 people for 5 nights starting on friday?,book+stay+details
+"Thank you, I need to book for 7 people and 3 nights starting on thursday. Can they set that up for me.",book+stay+details
+I need to book the room for 3 people starting on Sunday for 4 nights.,book+stay+details
+"Ok, can you book me for 2 nights on wednesday for 2 people?",book+stay+details
+Can you book the Allenbell for 8 people for 3 nights staring tuesday?,book+stay+details
+I need to book a hotel in the east that has 4 stars.,book+stay+details
+"Yes, please book this for 4 people for 3 nights starting on Thursday.",book+stay+details
+I'm looking to book at a hotel call lovell lodge.,book+stay+details
+"Yes, I would like to book starting Friday, for four nights and five people please.",book+stay+details
+"Yes, please. Can you book a room for Sunday for 5 people, 2 nights please?",book+stay+details
+"Yes, that will be great. I'll need it booked for Saturday, 3 nights, and 5 people, please?",book+stay+details
+"I need the attraction type, address, and postcode plerase",attraction+request_info
+"Great, thanks. Can you tell me some information on the Cambridge Arts Theatre please?",attraction+request_info
+"Great, can I please have the address for All Saints church?",attraction+request_info
+I don't see it. Is there any other attraction types it's listed under?,attraction+request_info
+What is byard art's postcode?,attraction+request_info
+"I'd like to visit a college in the centre. I'd like the entrance fee, address and phone number, as well, please.",attraction+request_info
+Can I get the address and postcode for The Cambridge Church?,attraction+request_info
+"Yes, what is the attraction type?",attraction+request_info
+Can you give me the phone number and post code for the Cambridge Artworks?,attraction+request_info
+A free church would cover a lot of my local historical interests. What is their phone number?,attraction+request_info
+"I'm also looking for places to go in town. I'd like it to be of the type of architecture. I'll need an entrance fee, please?",attraction+request_info
+A museum is more of my thing. Recommend one and send me the phone number please,attraction+request_info
+Can I get the phone number and entrance fee of cineworld cinema?,attraction+request_info
+Thanks a bunch! I couldn't have done it without you. Bye.,thanks+goodbye
+No. You took care of everything. Thanks. Goodbye.,thanks+goodbye
+Thanks. Goodbye.,thanks+goodbye
+Thank you. Goodbye.,thanks+goodbye
+I believe you've given me all the information I need. Thank you and goodbye.,thanks+goodbye
+"Thanks, good bye.",thanks+goodbye
+"No, the reservation is all. Goodbye.",thanks+goodbye
+"You've been great. Have a great day, bye.",thanks+goodbye
+Thanks for the help. I will be looking for that car. Goodbye.,thanks+goodbye
+Have a wonderful day!,thanks+goodbye
+"No, that's all I need today. I appreciate your help",thanks+goodbye
+"Sorry, my friend was talking to me while I was trying to get all of this taken care of. I have all the information I need. Have a nice day!",thanks+goodbye
+I need a taxi to meet me at my restaurant.,transportation+taxi+details
+I would need a taxi now,transportation+taxi+details
+"Could you also please book me a taxi from the museum to Golden Wok? I really don't want to miss my reservation, so it'll have to get there by 17:15.",transportation+taxi+details
+Yes I need to book a taxi to leave the restaurant and go back to the hotel at 14:15.,transportation+taxi+details
+I need a taxi to the restaurant.,transportation+taxi+details
+I will also need a taxi between those places and I need the taxi to pick me up from the hotel at 5:30.,transportation+taxi+details
+I would like the taxi to be here by 02:00.,transportation+taxi+details
+I need a taxi to come to backstreet bistro by 19:30.,transportation+taxi+details
+I also need a taxi that will leave the attraction by 20:30.,transportation+taxi+details
+Okay thank you. I also need to book a taxi to leave the attraction at 5:30.,transportation+taxi+details
+"Ok, great. Lastly, can you please schedule me a taxi from Cambridge Artworks to Pizza Hut Fen Ditton by my 19:45 reservation time?",transportation+taxi+details
+"Actually, I do need a taxi to get to the train station. Can you look one up for me?",transportation+taxi+details
+"No, thank so much for all your help.",deny+thanks
+"No, that's all I need. Thank you for your help!",deny+thanks
+No thank you that will be all,deny+thanks
+no that is all i wanted from you today thank you,deny+thanks
+"No that was all the help I needed, thank you.",deny+thanks
+"No, that's everything. Thanks for the help!",deny+thanks
+No that is all I need today. Thank you very much.,deny+thanks
+"Nope, that was all I needed, thanks!",deny+thanks
+"No, that's all I need. Thank you!",deny+thanks
+"No, that would be fine. Thank you. That was all I needed for today.",deny+thanks
+"No, that's perfect. Thank you for your assistance.",deny+thanks
+"No, thank you for your help.",deny+thanks
+What about a museum in the center?,find+attraction+details
+What is a fun place to go in the west of town?,find+attraction+details
+Can you tell me some information on Clare College? I was thinking of visiting there.,attraction+request_info
+I want to find a museum in the centre of town please.,find+attraction+details
+i am also looking for an attraction in the same area as the hotel.,find+attraction+details
+Thanks for that info. I also need attractions in the same section of town as the restaurant. Do you have any boat activities?,find+attraction+details
+Could you help me find a place to go? I'd like to find some architecture.,find+attraction+details
+I would like information on The Cambridge Corn Exchange,attraction+request_info
+I'm planning a trip to Cambridge I am looking for an attraction places to go in centre.,find+attraction+details
+I was also wondering if you would be able to help me find a place to go to see some great architecture.,find+attraction+details
+Can you tell me if there are any colleges close to the restaurant?,find+attraction+details
+I want a museum.,find+attraction+details
+I need an architecture attraction to visit in the centre.,find+attraction+details
+The old schools attraction is fine.,find+attraction+details
+What is the price?,request_info
+What area is that in?,request_info
+"I need the address, postcode and the price range.",request_info
+How about 9:15?,request_info
+What is their star rating?,request_info
+"Can you give me the name of a popular one? I'd also like the postcode, entrance fee and phone number.",request_info
+"Oh, I forgot, do they have free parking?",stay+request_info
+"Great, thanks for that. Can you tell me what area of the city that's in, and what their entrance fee is?",request_info
+Can i get the address and price range?,request_info
+"Can I get the entrance fee and postcode, please.",request_info
+Can I get the postcode of that place?,request_info
+what about something cheap then?,request_info
+The price doesn't matter so much but something 4 star rated would be nice.,details
+I'd like something in the centre if possible.,details
+I would prefer a moderately priced one please.,details
+Yes. It should be in the moderate price range.,details
+How about trying at 13:15 instead?,details
+I prefer cheap please and thank you,details
+No certain time. I just can't leave until after 16:45 on Friday.,details
+"Free parking and free wifi, please.",find+stay+details
+I am in wandlebury country park.,details
+"Well, that is pretty early, but I think it will work.",details
+"Yes, please broaden the price search.",details
+yes should be in the west,details
+"Yes, please, for 3 people.",details
+"Yes, 7 people at 13:30 on friday.",details
+I'm looking for a train to leave from stantsted airport on monday.,transportation+train+details
+I am also looking for a train that leaves cambridge on sunday,transportation+train+details
+"Hi, can you help me find a train out of Cambridge for my upcoming visit?",transportation+train+details
+Thank you. I also need a train going to Cambridge that arrives by 13:00.,transportation+train+details
+Can you please book me for the train that arrives latest. I need 8 tickets.,transportation+train+details
+I need a train going to bishops stortford.,transportation+train+details
+"Also, i need a train on Tuesday around 09:45.",transportation+train+details
+"I want to book a train to stevenage, and I want to leave around 14:00.",transportation+train+details
+Yes that train will work for me.,transportation+train+details
+I am going to stansted airport on saturday and need the train to leave anytime after 15:30 please,transportation+train+details
+I need to book a train for Monday going to Cambridge please.,transportation+train+details
+No that won't be necessary. Can you help me find a train though? I need to go to cambridge.,transportation+train+details
+I'd like to find a train from Leiceter on Saturday.,transportation+train+details
+I also need a train departing from Cambridge going to London Kings Cross on Tuesday leaving after 18:00. Do you have any?,transportation+train+details
+"Actually, I need a train to London Liverpool Street that arrives by 14:15.",transportation+train+details
+I'll be leaving cambridge going to leicester please.,transportation+details
+"Unfortunately, we can only travel on Tuesday. Thanks.",transportation+details
+"I will leave the Cambridge Museum at 24:30, going to the the Finches Bed and Breakfast.",transportation+details
+My destination will be ugly duckling,transportation+details
+I'm leaving from ely to cambridge.,transportation+details
+I would like to leave on Monday after 08:45.,transportation+details
+I would like to travel on Sunday.,transportation+details
+My departure site is Cambridge please.,transportation+details
+I would like to leave on Wednesday after 13:45.,transportation+details
+I'm coming from sesame restaurant and bar.,transportation+details
+I want to leave the hotel for the restaurant by 13:00.,transportation+details
+I am traveling from Stansted Airport to Cambridge.,transportation+details
+i will be traveling to broxbourne and would like to leave after 20:45.,transportation+details
+I am departing from Cambridge on Saturday. I would like to arrive in Stevenage by 14:00.,transportation+details
+Awesome. Thank you for all your help.,thanks
+Thanks for your help!,thanks
+Thank you so much for your help. Have a great day.,thanks+goodbye
+"That's all, thank you very much/",thanks
+Thanks so much for your help,thanks
+Thanks! That's all I need today. I appreciate your help.,thanks
+Great. Thank you. That is all I need for today.,thanks
+"That is all for now. Thank you for your help, have a great day.",thanks+goodbye
+Thanks. That's all I needed to know.,thanks
+"cool, thanks. i don't need anything more. see ya!",thanks+goodbye
+Thank you very much for your help. That is all I need for now.,thanks
+thanks for helping me out,thanks
+"ok, that's all i need thanks",thanks
+Not really. Is there something you can recommend?,deny+request_info
+"No, I just need the address and postcode, please.",deny+request_info
+"No thank you, I will just need the area and address, can you confirm both of those please?",deny+request_info
+"No, but do any of them have free parking?",stay+request_info
+"No, thank you. I would like the address, phone number and postcode, please.",deny+request_info
+"No thanks, I just need their phone number, please.",deny+request_info
+"Not really, what do you suggest? And can you provide a phone number?",deny+request_info
+"No, thank you. I just need the area and phone number.",deny+request_info
+No could you recommend one and can i get the postcode for it.,deny+request_info
+"No, but I do want the entrance fee.",deny+request_info
+No thank you. Can you just give me the postcode and phone number?,deny+request_info
+No thank you. Could I get the phone number and postcode please?,deny+request_info
+"No thanks, could you just give me their phone number?",deny+request_info
+"Yes, and I will need the train ID as well, please.",transportation+request_info
+can i get the price and time travel please,transportation+request_info
+"I'd like passage for 5, please. Oh, and the reference number, too. Thanks.",transportation+request_info
+I actually don't need any tickets. I just need the departure time.,transportation+request_info
+"Can you please let me know what time I'll arrive at Curry Garden? I don't want to miss my reservation, it's my best friend's dirty thirty.",transportation+request_info
+I need the car type and contact number.,transportation+request_info
+That sounds good. How long is the train ride?,transportation+request_info
+I would like to leave after 9:45. Please let me know the car type and contact number.,transportation+request_info
+i want to leave the attractinon by 20:30. get me a car and contact number,transportation+request_info
+Yes. I'd like to book a taxi between both places. I want to leave the hotel by 20:00. Please provide me with a contact number and car type.,transportation+request_info
+"Nope, what is the travel time on the one that leaves closest to 11:15?",transportation+request_info
+"No need for tickets. But can I get the arrival time, travel time and price?",transportation+request_info
+"No thank you. I would like the travel time, arrival time and ticket price.",transportation+request_info
+tell me about the departure and travel time,transportation+request_info
+"Can you give me the price, train ID and travel time please?",transportation+request_info
+I will also need the departure time please.,transportation+request_info
+"That would work! Could you tell me the Train ID, Arrival Time, and Price?",transportation+request_info
+What was the departure time?,transportation+request_info
+"No. I require the travel time, price, and train ID.",transportation+request_info
+I need 7 tickets and could you tell me the price? can I get the train number and the travel time also please?,transportation+request_info
+That Will be good enough. What is the Train ID and departure time?,transportation+request_info
+"That would work, can you give me the price and travel time?",transportation+request_info
+Great. How much is the ticket for the train leaving at 13:11? What time does it arrive and what is the travel time?,transportation+request_info
+Not yet but can I get travel time and train ID?,transportation+request_info
+"Before you do, what is the price and departure time?",transportation+request_info
+What is the total travel time on that one?,transportation+request_info
+What is the total travel time and price on that?,transportation+request_info
+I just need the departure time and price please,transportation+request_info
+I would like to leave the hotel by 22:00 to go to The Gardina. Please let me know the contact number and car type.,transportation+request_info
+That sounds good. I want to book a table for 7 people at 18:30 on Saturday.,book+restaurant+details
+"Actually, it would be quite helpful if you'd book a table for 3 at 13:00 on Monday.",book+restaurant+details
+"Yes, please book a table for 2 at Frankie and Benny's at 19:30.",book+restaurant+details
+any food will be just fine.Once you find the restaurant you want to book a table for 7 people at 13:30 on friday. If the booking fails how about 12:30.,book+restaurant+details
+"Yes, I would. Please reserve a table for 4 at 17:30 on Thursday.",book+restaurant+details
+No I'm not ready to book a spot yet. I do need to find a place to eat in the west though.,book+restaurant+details
+book a table for 7 people at 17:15 on saturday.,book+restaurant+details
+I need to book a table for 5 at 13:30 on saturday,book+restaurant+details
+"Yes, book me a table for 2 on Saturday at 19:45.",book+restaurant+details
+Great. Can you book me a table for 5 people at 20:00 on Saturday?,book+restaurant+details
+Yes. I need a table booked for 7 on saturday.,book+restaurant+details
+book a table for 8 at 15:45 on sunday,book+restaurant+details
+Great! Can you book me a table for 8 at 12:30 on Sunday?,book+restaurant+details
+that should be fine.please book a table for 4 people at 13:30 on saturday.,book+restaurant+details
+Perfect. Can you book a table for 1 at 18:30 on Sunday?,book+restaurant+details
+Can you book a table for 2 at 18:00 on Sunday at the La Mimosa?,book+restaurant+details
+Please book a table for 8 people at 19:15 on Wednesday.,book+restaurant+details
+Please book a table at 14:30 for 4 people on Wednesday.,book+restaurant+details
+"Great, can you book me a table on Sunday at 18:30 for 6 people?",book+restaurant+details
+Please book a table for 7 people at 11:45 on monday.,book+restaurant+details
+Can you book me a table for 5 there on Monday at 15:15?,book+restaurant+details
+"Yes, please book a table for me.",book+restaurant+details
+"Yes, please. Can you reserve me a table for Thursday for 8 people at 17:15?",book+restaurant+details
+I would like to book a table for 7 people at 18:45 on wednesday at the dojo noodle bar please.,book+restaurant+details
+"Yes, please book a table for 4 people at 14:00 on sunday. Thank you.",book+restaurant+details
+"Great. I would like to book a table for 5 people at 21:00 on the same day, please.",book+restaurant+details
+Could you please book me a table for 3 people at 14:30 on Tuesday?,book+restaurant+details
+"Yes, I want to book a table for 19:00.",book+restaurant+details
+"Great, I need a table for 3 at 18:15 on Tuesday.",book+restaurant+details
+"Hi, I am trying to find out the address, business hours and basic price range of the restaurant Golden Wok in Cambridge.",restaurant+request_info
+I am not particular. Can you choose one you think would be good for me and let me know the food type?,restaurant+request_info
+"I don't need a table right now, but I do need the postcode and phone number for that restaurant.",restaurant+request_info
+What is the price range and address for this restaurant?,restaurant+request_info
+I will need the reference number and the restaurant phone number please.,restaurant+request_info
+"That's perfect, thank you. Could you also give me the address for The Varsity Restaurant?",restaurant+request_info
+I want Indian food. Please give me the phone number and address.,restaurant+request_info
+Lets go with the Turkish one. Can I get the address and postcode please?,restaurant+request_info
+"What type of food do they serve, please?",restaurant+request_info
+"Yes please, also what type of food do they serve?",restaurant+request_info
+What is the first available restaurant?,restaurant+request_info
+I am looking for a local restaurant. May I have the phone number of one please?,restaurant+request_info
+What kind of food do they serve?,restaurant+request_info
+May I have the phone number and price range of the restaurant?,restaurant+request_info
+Book 4 seats for me please.,book
+Yes please book it for 5 people,book
+"I'd like a booking there for two, at 11:45 wednesday.",book
+"Yes, please book Meghna for 10:15, same day.",book
+"Before I book this, what is the price?",book
+That would be great. Can you book it for 6 people at 14:15 on Wednesday?,book
+"Yes, that place sounds perfect. If I could book for 8 on the same day at 15:00 it would be great.",book
+Can you provide me with the reference number for that booking?,book
+Yes thats perfect can you book that?,book
+Yes. Please book it for 6 people on Wednesday at 12:15.,book
+Can you make a reservation for Saturday for 7 people at 15:15?,book
+"Yes, please book it for me.",book
+Perfect. Can you help me with a reservation for 6 people at 14:30 this coming sunday?,book
+I want to book it for the same day as the restaurant and the same party.,book
+Yes. Can you book for 1 person?,book
+Yes. Please book tickets for 8.,book
+Yes please book it for me.,book
+That sounds great. Can you book it for me?,book
+Sounds perfect. Could you make me a booking for 4 people?,book
+Yes can you please book that for me?,book
+yes please book it.,book
+I would like you to book 4 tickets for me. Thanks.,book
+"Yes, could you make a booking for 3 people?",book
+Can you please book it for me?,book
+Can you book it for me?,book
+That would work for me. Can you book me 8 tickets please?,book
+"Thank you, can you book me for that?",book
+"Yes, please make me a reservation.",book
+"Yes, that works. Can you book me 5 tickets please?",book
+"Yes, please book that for 8 people and let me have a reference number.",book+request_info
+Actually I don't need it booked right now. Can I please have the postcode and phone number?,book+request_info
+I do not need to book it. What is the postcode and the area please?,book+request_info
+yes ! make a booking for 2 people. Make sure you get the reference number,book+request_info
+Yes. Please book space for 7 people and send me the reference number.,book+request_info
+book for 5 people and get me the reference number,book+request_info
+Moderately priced in the centre. I need a reservation for 4 at 13:45 on Wednesday and the reference number as well.,book+request_info
+"Thats sounds perfect. But, I don't need to book today. Although, can you tell me their star rating?",book+request_info
+book for 7 people and give me the reference number,book+request_info
+Can you book it for me and get a reference number ?,book+request_info
+Please book it and send me the reference number.,book+request_info
+"Sure, can you book that for 2 people and provide my reference number?",book+request_info
+Please book reservations for 1 and provide me with the reference number.,book+request_info
+Yes. I need you to book it for 2 people and then give me the reference number,book+request_info
+Book it for four people. Give me the reference number.,book+request_info
+that is fine. book for 2 people and get me reference number,book+request_info
+Yes please book it and let me have the reference number.,book+request_info
+I would like to book for 6 people and I need the reference number.,book+request_info
+"That is perfect, please book me for 5 people and can I have a reference number?",book+request_info
+Yes please book it for me and a reference number,book+request_info
+Great! Do you know what price range they are in?,affirm+request_info
+Great. Can I get a contact number?,affirm+request_info
+"Yes, I need their postcode and phone number.",affirm+request_info
+Yes. Is there one that leaves after 11:15?,affirm+request_info
+Ok no problem. Can I have the address?,affirm+request_info
+Yes. What is the price?,affirm+request_info
+"Yes, please and could you give me their hours of operation?",affirm+request_info
+Yes I need their postcode.,affirm+request_info
+"Any of those places will do then, just please provide me the phone number for one of them.",affirm+request_info
+"Sure, that will work. Can you tell me more about them?",affirm+request_info
+"Yes, and I need a reference number.",affirm+request_info
+Yes may I have their postcode please?,affirm+request_info
+"That sounds fine! Can I get their phone number, address, and postcode?",affirm+request_info
+"Yes, may I have the postcode please?",affirm+request_info
+"Sure, that sounds great! What is the post code and the phone number?",affirm+request_info
+"Sounds wonderful! May I have their postcode, address and phone number please?",affirm+request_info
+"That sounds lovely, could I get the phone number and postal code please?",affirm+request_info
+Sounds great. Can I get their number?,affirm+request_info
+That sounds like a nice place. What is their postcode and phone number?,affirm+request_info
+"That sounds perfect. Can you tell me their address and postcode, please?",affirm+request_info
+"Yes, please give me their phone number.",affirm+request_info
+"Yes, can you tell me their address please?",affirm+request_info
+Yes can I get the address to there please?,affirm+request_info
+"Great, can I have their phone number please?",affirm+request_info
+Great! Can you give me the postcode and phone number? I'd like to mark that in my notes in case I get lost.,affirm+request_info
+That sounds great. Can I have the address please?,affirm+request_info
+"Yes, that sounds good, and I would like the reference number, please.",affirm+request_info
+"Actually, I'd like a moderate hotel in the centre with free wifi. I need to book it for 3 people for 3 nights starting Sunday. And a reference number please?",stay+request_info
+Is your system able to book yet? I will need the area and phone number of the el shaddai hotel.,stay+request_info
+What is the star rating of the Acorn Guest House?,stay+request_info
+What about for 2 nights? I will also need the reference number when it is booked.,stay+request_info
+"Okay, I need to book one of them for 1 person starting Tuesday for 2 nights. Please send me the reference number once the reservation is booked.",stay+request_info
+Yes. I need to stay 4 nights with 6 people. I'll need the reference number as well.,stay+request_info
+One night would work. Be sure to include my reference number.,stay+request_info
+Yes book an expensive hotel for 4 nights for 3 people if you can find one. Please provide the reference number also.,stay+request_info
+"No, can I please just have the post code of that hotel for now?",stay+request_info
+"Can I just have the number of stars the hotel has, address and postcode please?",stay+request_info
+"No preference, I need it for 2 nights starting from Monday for 3 people, and I need a reference number please.",stay+request_info
+"Oops, I forgot to ask for free parking, does that include free parking?",stay+request_info
+"Thank you I need to book a room for 3 people, for 3 nights starting friday and can I get the reference number?",stay+request_info
+No may I just have the postcode and star rating of the hotel.,stay+request_info
+"I'd like to book the room for 4 people, for 4 nights, starting Saturday. Please provide me with the reference number.",stay+request_info
+Thanks a lot. Can you tell me a little about a hotel called Home From Home?,stay+request_info
+Can I also get some information on Kirkwood House hotel?,stay+request_info
+Thank you. Could you provide for me some information about the Aylesbray Lodge Guest House as well?,stay+request_info
+I need the address of the Worth House hotel.,stay+request_info
+"Yes, what can you tell me about the Aylesbray Lodge Guest House?",stay+request_info
+I also need information regarding a hotel called Worth House.,stay+request_info
+"Yes, please get me information about the home from home hotel",stay+request_info
+Awesome! Now please get me some information on the limehouse hotel,stay+request_info
+What is the hotel type and what area is it located?,stay+request_info
+Can I have the address and the hotel type of Cityroomz?,stay+request_info
+I'm sorry. Did you say the hotel is Cityroomz or Sleeperz? What type of hotel is it?,stay+request_info
+"I want to try Scudamores Punting Museum What is their postcode and phone number, please?",attraction+request_info
+"Not at this time, thanks. I am also considering visiting the Cambridge University Botanic Gardens. Can you tell me what area it is in?",attraction+request_info
+Surprise me! Can you send me the postcode of the attraction you choose?,attraction+request_info
+"I hear that Cambridge has a lot of nice museums, can you tell me more about that?",attraction+request_info
+Alright I also heard about this place called abbey pool and astroturf pitch. What is their number and address?,attraction+request_info
+"I'll take the ""Whale of a Time"", what type of attraction is that, and can I get the postcode and entrance fee please?",attraction+request_info
+Can I please have the postcode for the Holy Trinity Church?,attraction+request_info
+"What type of attraction is it, and what does it cost to get in?",attraction+request_info
+"It doesn't really matter, maybe a museum? I'll need the entrance fee also please.",attraction+request_info
+A museum would be great! Could you send me the phone number and entrance fee of one?,attraction+request_info
+Great! Can I get the postcode for that museum?,attraction+request_info
+What options do you have for entertainment?,attraction+request_info
+"No, I want to stay in the same area. How about colleges then?",attraction+request_info
+I'm looking for information in Cambridge church. Can you help?,attraction+request_info
+What is the attraction type for All Saints?,attraction+request_info
+Could you tell me the address of Clare college?,attraction+request_info
+"Can I please have the address, phone number and postcode for Cambridge Artworks?",attraction+request_info
+I am also looking for information on Clare College.,attraction+request_info
+What is the attraction type?,attraction+request_info
+"Yes, what type of attraction is it?",attraction+request_info
+I need the postcode and attraction type?,attraction+request_info
+A church is great can I have the address of the one you recommend?,attraction+request_info
+Could I have the address and entrance free for Vue cinema?,attraction+request_info
+what is the type of attraction and area for the whipple museum?,attraction+request_info
+What attraction type is it please?,attraction+request_info
+"Cambridge artworks sounds nice. Can you tell me their phone number, address, and type?",attraction+request_info
+Thank you can I get another address for another college too please?,attraction+request_info
+What type of attraction is the museum?,attraction+request_info
+"Could you book the Wartworth for one night, 1 person?",book+stay+details
+Yes please book it for 5 people and 4 nights starting from the same day.,book+stay+details
+Yes! I'd like to book it for the same group of people and 5 nights starting from the same day.,book+stay+details
+"I don't want to book yet, I need to first make sure that I can stay at a hotel called ""Acorn Guest House"".",book+stay+details
+Yes I need reservations for 8 people for 2 nights starting from thursday.,book+stay+details
+That sounds perfect please book for the same group of people for 2 nights starting on wednesday.,book+stay+details
+I need to book a place to crash please.,book+stay+details
+"Actually, can you please book the Alexander Bed and Breakfast instead? I'll be arriving on Saturday and need a room for 4 nights. Just one person.",book+stay+details
+I would like you to book me into the hotel for tuesday for 5 nights and 2 people.,book+stay+details
+I prefer the expensive hotel. Can you book it for me for the same group of people?,book+stay+details
+"Yes, please. I'll need it booked on Sunday, for 5 nights, and it will only be 1 person.",book+stay+details
+Yes I would like to book for 7 people and 4 nights starting from Friday.,book+stay+details
+Great. Can you book it for 7 people and 4 nights starting on Friday?,book+stay+details
+Yes. I need 3 rooms beginning on Tuesday for 2 nights.,book+stay+details
+Can you book a room for me for 7 people? We'll arrive on Wednesday and stay for 3 nights.,book+stay+details
+"Yes, please. We need to book for 3 people. We're arriving on Monday and we'd like to stay for 3 nights.",book+stay+details
+Yes please. 1 person for 3 nights starting Thursday.,book+stay+details
+Thank you! I'd like to book a room starting on Sunday. I'll need it for 5 nights and 6 people.,book+stay+details
+Yes please book that for 4 nights starting from monday.,book+stay+details
+"Yes, please book it for 6 people and 3 nights starting from tuesday.",book+stay+details
+"I would like to this book hotel for 2 people and for 5 nights on Friday, please.",book+stay+details
+Great can you book it for 2 people for 5 nights on thursday?,book+stay+details
+book it for 3 people and 2 nights starting from thursday.,book+stay+details
+Can you book the limehouse for 1 person to stay 4 nights starting saturday?,book+stay+details
+book it for 3 people and 4 nights starting from wednesday.,book+stay+details
+Yes I would. I need to book a room for Saturday for 4 nights.,book+stay+details
+Please book it for 3 people for 3 nights starting Tuesday.,book+stay+details
+"No, that will be all. Goodbye.",thanks+goodbye
+No thanks. That's all the help I need. Take care. Bye.,thanks+goodbye
+"No, I think that was it. Have a good day.",thanks+goodbye
+"Thank you, that's all I need right now. Bye.",thanks+goodbye
+"No, that is all. Good bye.",thanks+goodbye
+Thanks so much. That is all I need for today. Bye.,thanks+goodbye
+"No, that is all. Thank you! Goodbye!",thanks+goodbye
+No thank you have a nice day.,thanks+goodbye
+"That is great, I'm so excited. Thanks for you help. Bye.",thanks+goodbye
+No thank you. Goodbye.,thanks+goodbye
+No that was all. Goodbye.,thanks+goodbye
+Thanks for the information. Goodbye.,thanks+goodbye
+Great! Thank you for all your help. Goodbye,thanks+goodbye
+"Yes, I am relieved. I have no more questions. Thank you for your persistence. Good bye.",thanks+goodbye
+Again thank you for all your help and goodbye.,thanks+goodbye
+That will be all. Thanks for your time. Bye.,thanks+goodbye
+That's okay. I know how that is sometimes. That was it. Thanks for your help and have a great day.,thanks+goodbye
+No. That will be all I need. Thanks. Take care. Bye.,thanks+goodbye
+No thank you! Thanks for everything! Bye!,thanks+goodbye
+That will be all. Thank you for all of your help! Goodbye!,thanks+goodbye
+Thank you goodbye,thanks+goodbye
+"That is all I will need. Thank you, good bye.",thanks+goodbye
+im in Cambridge central and would like to be picked by the taxi at 1200hrs,transportation+taxi+details
+"Hey, I'm trying to book a taxi today",transportation+taxi+details
+I also need a taxi in order to commute,transportation+taxi+details
+"Book a taxi for me, it needs to get me to the restaurant in time.",transportation+taxi+details
+yes I would need a taxi,transportation+taxi+details
+I would like to book a taxi to take me from the restaurant to The Junction at 9:00,transportation+taxi+details
+I am wanting to book a taxi. I am going to Sitar Tandoori and want to leave after 19:30.,transportation+taxi+details
+"Yes, I'll also need a taxi. I'll need to commute between the two places.",transportation+taxi+details
+I need a taxi to come after 19:30.,transportation+taxi+details
+I'd like a taxi to take me from the hotel to Curry Garden for my reservation.,transportation+taxi+details
+No thank you. Can you book me a taxi to go between the two places? I want to leave the hotel by 4:00.,transportation+taxi+details
+I also need a taxi from All Saints Church to the Golden Curry. I need to arrive to the restaurant by 13:15.,transportation+taxi+details
+Sounds good. I also need a taxi from my hotel.,transportation+taxi+details
+I would like for the taxi to be here at eleven o'clock a.m. so that I can arrive at my destination at noon.,transportation+taxi+details
+I would like to book a taxi for after 01:15 pm and i will be going to milton country park.,transportation+taxi+details
+I'd like to be picked up today from alexander bed and breakfast,transportation+taxi+details
+"I'd like help with a taxi, please. I need to be picked up at museum of classical archaeology and should arrive by 9:00. Can you help?",transportation+taxi+details
+Great I also need a taxi to take me between the two places.,transportation+taxi+details
+I'd like to arrange for a taxi please,transportation+taxi+details
+I also need a taxi between the 2 places.,transportation+taxi+details
+"No, thats ok. I actually need to book a taxi to leave the ballare by 21:00.",transportation+taxi+details
+I need a taxi to return back to the hotel. I'll be leaving the college at 3:15 PM.,transportation+taxi+details
+I also need to book a taxi between the two places.,transportation+taxi+details
+I need the taxi to pick me up at the park at 17:00.,transportation+taxi+details
+Yes please. And get me a taxi for that commute.,transportation+taxi+details
+I need a taxi to pick me up from the fez club. Can you help?,transportation+taxi+details
+The taxi would be going to La Margherita.,transportation+taxi+details
+I need a taxi to arrive at 09:00 at the Riverboat Georgina.,transportation+taxi+details
+I'm at Jesus College and I need at taxi to arrive by 18:00.,transportation+taxi+details
+"No thank you, I think that will be all I need.",deny+thanks
+"Nope, that's it. Thank you!",deny+thanks
+No. That is all. Thank you!,deny+thanks
+"No, that will be all. Thank you for your help.",deny+thanks
+"No, that is everything I needed. Thank you.",deny+thanks
+No thats all I needed. Thank you for the help.,deny+thanks
+"No, that's everything I need. Thank you very much.",deny+thanks
+"No thank you, that is all.",deny+thanks
+No that was all. Thanks,deny+thanks
+"No thanks, that will be everything.",deny+thanks
+No thank you that was all!,deny+thanks
+Not at this time. Thank you for your assistance.,deny+thanks
+"No, thank you. I have everything I need at this time.",deny+thanks
+"No, that's all I needed! Thank you for your help!",deny+thanks
+"No, that's all I need. Thanks for your help!",deny+thanks
+Nope that should be it thank you,deny+thanks
+"No, I believe that will be all today. Thank you.",deny+thanks
+"No, this is all I will need. Thank you.",deny+thanks
+"No, that will be all. Thank you!",deny+thanks
+"Nope, that's all I need today. Thank you for all your help.",deny+thanks
+No that takes care of thank you,deny+thanks
+"Nope, that is everything! Thanks!",deny+thanks
+No that is all thanks so much for the help.,deny+thanks
+No thank you that will be all,deny+thanks
+No thank you that will be all.,deny+thanks
+"No, that is everything. Thanks so much!",deny+thanks
+No that was all thank you so much.,deny+thanks
+"No, that should be all today. Thank you.",deny+thanks
+I would like to visit a college while in cambridge.,find+attraction+details
+"Yes, I am also looking for attraction places to go in the same area as my hotel.",find+attraction+details
+i am looking for places to go in town. The attraction should be in the type of college.,find+attraction+details
+I'd like to visit a park in the south part of town. Can you recommend one to me?,attraction+request_info
+I'm looking to play a variety of sports. Are there facilities that cater to that?,find+attraction+details
+Hi im looking for a museum,find+attraction+details
+I am looking for the attraction whipple museum of the history of science.,find+attraction+details
+I am looking for an entertainment attraction in the centre of town.,find+attraction+details
+I am interested in visiting a museum while I am there.,find+attraction+details
+I'm also looking for an attraction called Riverboat Georgina.,find+attraction+details
+I'm looking for some entertainment in the center of town.,find+attraction+details
+that sounds fine. Can you give me some info about a cinema to visit?,find+attraction+details
+A college I think would be best.,find+attraction+details
+How about a theatre?,find+attraction+details
+I want general information on places to go in the centre area of town.,find+attraction+details
+Actually never mind. I would just like to find a college to visit in town.,find+attraction+details
+"Yes, I also need something to do while in town. Is there a museum in the west I can visit?",find+attraction+details
+I'm looking for a place to go in the west of town.,find+attraction+details
+Are there any boat attractions I could go to?,find+attraction+details
+i want information about a place i can see local attractions.,find+attraction+details
+Great. I would also like to find a museum to go to in centre Cambridge.,find+attraction+details
+"Hi, I am looking for some attractions that are in the centre of town.",find+attraction+details
+"Yes, I'm also looking for an attraction in the centre of town. Are there any boats that I can see?",find+attraction+details
+I'm looking for a museum to go to.,find+attraction+details
+I'm looking for entertainment attractions in the south.,find+attraction+details
+"Hi, I am looking for attractions in the centre.",find+attraction+details
+Thank you. Are there any colleges with free admission in the area? Or any other attractions that I may visit inbetween my meetings?,find+attraction+details
+"Yes, can you recommend a place to go in town, maybe a museum?",attraction+request_info
+Actually can you find an attraction called Jesus College.,find+attraction+details
+I am also looking for places to go. Could you recommend me any attraction in the center?,find+attraction+details
+What's the postcode for it?,request_info
+Can you also tell me the address?,request_info
+"Thanks, can I have their contact number as well?",request_info
+Do any of them offer internet?,stay+request_info
+"I don't know that area very well, can you give me the exact address? I'll use gps to get there. Thanks!",request_info
+Can I please get the address?,request_info
+"I will take a recommendation from you. I will need the postcode, area, and entrance fee please.",request_info
+What part of town is it located in?,request_info
+And what area are they in?,request_info
+What is the phone nymber?,request_info
+Do you have anything like that in the centre?,request_info
+What is the postcode for your recommended one? You choose.,request_info
+Thank you. What is the contact number?,request_info
+Can you check for 17:15 on the same day?,request_info
+What area of town is it in?,request_info
+"phone number, and address please",request_info
+Can I get the postcode for both of them?,request_info
+Is there anything within walking distance of me?,request_info
+Do any of them include free parking?,stay+request_info
+"What is the address, please.",request_info
+Just one person please and I need a reference number,request_info
+what is their entrance fee?,request_info
+What is their entrance fee?,request_info
+What is the price?,request_info
+"Yes, I would prefer free parking and free wifi.",find+stay+details
+"I need it in the east, please.",details
+It s have free parking.,find+stay+details
+I will need it for four people.,details
+I don't have a preference.,details
+"I would like it to be on Wednesday, please.",details
+How about something in the centre of town?,details
+I've got a couple of Jamaican buddies and I want to make them feel at home.,details
+how about for 11:15?,details
+Thursday at 12:45 for 7 people.,details
+How about in the centre?,details
+"Yes, please, for 5 at 18:45 on Saturday.",details
+"How about Tuesday, same time.",details
+I was really hoping for something in the centre of town.,details
+"Yes, it needs to be in the east.",details
+I would like to be in the east.,details
+Yes for 5 people please.,details
+Tomorrow if it is available,details
+"Yes, I'd like a moderately priced place in the north.",details
+There are 3 of us.,details
+I don't have a specific price range. Just something in the centre will be fine.,details
+"Yes, 3 people 11:00 on Sunday please.",details
+"Yes, please. for 4 people at 13:00 on monday.",details
+"Yes I would, for 3 people Wednesday at 18:15.",details
+I'm actually looking for something in the centre part of town.,details
+I need it by 11:45 please.,details
+I need it to be in the expensive price range.,details
+"I don't have a preference, but I'd like it to be in the centre.",details
+the same group of people at 16:15 on the same day.,details
+I'm looking for a place to go in centre.,details
+"Yes, please. 3 people at 12:15 on Friday.",details
+The train should depart from kings lynn and should leave on thursday.,transportation+train+details
+I also need to find a train from stansted airport to cambridge that arrives by 8:00 on tuesday.,transportation+train+details
+Find me a train on thursday that should arrive by 15:30.,transportation+train+details
+I need a train as well.,transportation+train+details
+"Yes, I also need to find a train going to Cambridge.",transportation+train+details
+The train should depart from peterborough and arrive in Cambridge by 10:45.,transportation+train+details
+i am also looking for a train. The train should leave after 20:15 and should depart from london liverpool street.,transportation+train+details
+I need to take a train from cambridge on saturday.,transportation+train+details
+I'm .looking for a train departing from stevenage.,transportation+train+details
+That would work. Can you book me 3 tickets for that train?,transportation+train+details
+I'm looking for a train that goes to Cambridge from birmingham new street.,transportation+train+details
+"I need the train to leave on Friday from Peterborough, and arrive by 12:15.",transportation+train+details
+"Okay, that sounds great. I also need a train that leaves on Sunday after 17:30 from Cambridge going to Stevenage.",transportation+train+details
+The last train sounds like it will work best. Can you book me 4 tickets for that one please?,transportation+train+details
+"Okay, thanks. Can you also help me find a train to Cambridge on Thursday?",transportation+train+details
+Is there a train schedule for sunday?,transportation+train+details
+Thanks. I also need a train departing from Peterborough at 10:45.,transportation+train+details
+I need to book a train to cambridge from a train leaving from stevenage.,transportation+train+details
+"Ok, I need to book the train for 6 people please.",transportation+train+details
+"Can you book passage for 7 people, please?",transportation+train+details
+I'm looking for a train leaving on Wednesday that's going to Cambridge.,transportation+train+details
+thanks. i also want a train that departs from london kings cross,transportation+train+details
+I'm also looking for a train to london liverpool street.,transportation+train+details
+"I need a train for 4 people to broxbourne, arriving by 3 pm",transportation+train+details
+I need a train going to Cambridge.,transportation+train+details
+"I need a train, as well. It should leave on tuesday and go to london liverpool street.",transportation+train+details
+yes. i am also looking for a train to go to stevenage,transportation+train+details
+I also need a train. The train should leave after 16:15 and should leave on sunday.,transportation+train+details
+Awesome. I'm also looking to book a train that arrives there on the same day by 09:00.,transportation+train+details
+I'm in need of a train that leaves from Peterborough and arrives by 18:30.,transportation+train+details
+Okay. Can you find me a train to Broxbourne. I need to arrive by 21:00.,transportation+train+details
+i am also looking for a train to birmingham new street and should depart from cambridge looking for a train,transportation+train+details
+i'm going to sitar tandoori.,transportation+details
+"Yes, departing from Cambride going to London Kings cross.",transportation+details
+I am going to rice house,transportation+details
+"Monday, to Broxbourne.",transportation+details
+ely is the departing city,transportation+details
+I need it to go to cambridge and arrive by 15:00.,transportation+details
+I'd like to leave on Sunday with an arrival time by 08:30.,transportation+details
+I'll be at London's Kings Cross and wanting to leave after 11:45 am.,transportation+details
+I only need to leave the attraction by 15:30.,transportation+details
+I need to leave the hotel by 10:00.,transportation+details
+I would be going to Kirkwood house.,transportation+details
+I would like to leave on Sunday and arrive by 17:15.,transportation+details
+"I am planning a trip in Cambridge,",transportation+details
+I would prefer to leave around 9:30 on Monday morning.,transportation+details
+I'm leaving from Cambridge,transportation+details
+"I would like to leave on Wednesday. I am open on what time to leave, however, I need to be there by 21:00.",transportation+details
+I'm leaving from milton county park.,transportation+details
+I would like to travel on Monday and my destination is Cambridge.,transportation+details
+"I need to leave Old Schools by 15:30, please.",transportation+details
+I want to leave sometime after 13:30.,transportation+details
+I am going to cambridge and need to leave after 12:00,transportation+details
+I need to go to Cambridge on Friday.,transportation+details
+I am departing from la tasca.,transportation+details
+I would like to arrive by 8:15 on Tuesday from Cambridge.,transportation+details
+I would like to arrive at 8:45 on Thursday,transportation+details
+I am departing from Cambridge University Botanic Gardens and need to arrive at Pizza Hut Cherry Hinton.,transportation+details
+"Ely, I'd like to leave after 15:15.",transportation+details
+I need to depart Cambridge on Thursday after 19:30. I'll be going to Stevenage.,transportation+details
+I wish to leave after 8:15.,transportation+details
+I will need to leave after 15:45,transportation+details
+I'm departing from peterborough on saturday. I want to arrive by 16:00.,transportation+details
+I'll be going to meze bar restaurant.,transportation+details
+i want to leave by 20:30,transportation+details
+I will be departing from Birmingham New Street.,transportation+details
+I can't leave until after 20:30.,transportation+details
+Going from attraction to hotel.,transportation+details
+I am leaving from Ely heading to Cambridge.,transportation+details
+I am leaving from Cambridge and going to Norwich.,transportation+details
+"Alright, that is everything I need to know! Thank you.",thanks
+"Ok thanks, I appreciate your fast service.",thanks
+I'm happy and relieved. That's everything. Thank you so much for your help.,thanks
+"That's it, thank you very much for your help.",thanks
+"Thank you, that will be all.",thanks
+"Okay, thanks.",thanks
+Sounds great! Thank you so much.,thanks
+Thanks a lot for your help!,thanks
+"Great, thank you. That is all I need.",thanks
+"thank you, that's all I need!",thanks
+That'll be all. Thank you.,thanks
+Thank you for the booking. That will be all for now.,thanks
+Thank you for your help.,thanks
+"That's all that I needed, thank you.",thanks
+that is all i need today. thanks for helping,thanks
+"Great, that's all I need today. Thank you!",thanks
+thank you for your service,thanks
+"That's great, thanks, have a good day.",thanks+goodbye
+"Ok, that is all. Thank you.",thanks
+"Thank you so much, that's all I need",thanks
+That should be all. thank you.,thanks
+That sounds perfect. Thank you very much!,thanks
+thanks alot for helping,thanks
+"That was all that I needed, thanks",thanks
+that is enough for today. thanks for helping,thanks
+"That is all I need, thank you.",thanks
+thanks again. you are of great help,thanks
+Thank you for your help today,thanks
+Thank you very much.,thanks
+"Thank you for your help, you do the same.",thanks
+"That's all the information I needed today, thank you.",thanks
+"That is all, thanks.",thanks
+"Thanks, you too!",thanks
+"Okay, great. Thanks for your help!",thanks
+"ok, thanks. leave me alone now.",thanks+goodbye
+That's everything thanks for the help,thanks
+Thank you so much. That was all I needed.,thanks
+Thanks a gain for your help.,thanks
+"Okay, great. Thank you for your help!",thanks
+"Thanks, that's all I need. Have a nice day.",thanks+goodbye
+"That's all, thanks",thanks
+Okay great. That is all I needed to know.,thanks
+I would like to try some chinese food while I am visiting cambridge.,find+restaurant+details
+I would like an indian restaurant.,find+restaurant+details
+I would like a Chinese food restaurant.,find+restaurant+details
+"I'd like to try some British food, I think.",find+restaurant+details
+I'm looking for a restaurant that serves Asian Oriental food located in the south. Can you help?,find+restaurant+details
+"Hi, I'd like to find a moderately priced steakhouse.",find+restaurant+details
+I would really prefer European food if you can find that for me.,find+restaurant+details
+"Yes,  I am also looking for a moderately priced restaurant in the same area.",find+restaurant+details
+Hi there. I'm trying to impress my girlfriend and was wondering if there might be a really nice british restaurant in town?,find+restaurant+details
+I would also like some info on some places to eat in town.,find+restaurant+details
+"Hi, I'm looking for an expensive restaurant.",find+restaurant+details
+I am looking for a particular restaurant called city stop restaurant.,find+restaurant+details
+"Yes, please give me the name of a place to dine in the centre. I would like it to be moderately priced.",find+restaurant+details
+"Thank you, can you also find an Indonesian restaurant for me? I'd prefer if it were expensive.",find+restaurant+details
+I'd like Indonesian food located in the city's centre. Do you have anything like that?,find+restaurant+details
+"Yes, I would prefer a restaurant in the moderate price range.",find+restaurant+details
+I'm looking for an expensive restaurant in the centre.,find+restaurant+details
+I would like some Indian type food.,find+restaurant+details
+"Yes, are there any restaurants located near the Cityroomz hotel?",find+restaurant+details
+I would really like to have Indian tonight.,find+restaurant+details
+Lets try European food in the expensive price range in the northern part of town again.,find+restaurant+details
+I can't change the location but I can eat spanish food instead. Is that an option?,find+restaurant+details
+"no, how about british food?",find+restaurant+details
+I'm also looking for a restaurant by the name Maharajah Tandoori.,find+restaurant+details
+I haven't had eritrean in forever and would like to have some. Please find me a moderately priced restaurant that serves it,find+restaurant+details
+Can you try a chinese restaurant in the same price range and area?,find+restaurant+details
+how about one that serves portuguese food?,find+restaurant+details
+Can you help me find a good thai restaurant in the west?,find+restaurant+details
+"Great, thank you. I am also looking for a modern European restaurant.",find+restaurant+details
+"Yes, Caribbean food please.",find+restaurant+details
+I am looking for a place to dine. The restaurant should serve mediterranean food and should be in the south,find+restaurant+details
+"Yes, I would like an expensive restaurant in the south.",find+restaurant+details
+"Slug and Lettuce would be a fine choice, I need a table on Friday for 2 people at 11:15.",find+restaurant+details
+I would like to find a restaurant in the centre.,find+restaurant+details
+"I am looking for a restaurant that serves Northern European food. I would like it to be in the South, also.",find+restaurant+details
+No particular type of food but I need it in the moderate price range.,find+restaurant+details
+I suppose Italian might suffice. Do you have any listings for cheap Italian restaurants on the west side?,find+restaurant+details
+"Hello, I am trying to find a place to stay that has free wifi and 3 stars. Do you have anything like that?",find+stay+details
+"I don't need it, but either way. As long as the hotel is expensive and has free wifi I don't mind. Are any located in the centre?",find+stay+details
+"I'm looking for a guesthouse in the north to stay at, what is available there?",find+stay+details
+Thanks! I am also looking for a guesthouse in Cambridge.,find+stay+details
+Are there good hotels?,find+stay+details
+I'm looking for University Arms Hotel.,find+stay+details
+expensive guesthouse. it should have free parking and wifi,find+stay+details
+I'm looking for an expensive hotel in Cambridge that offers free wifi for guests.,find+stay+details
+I'm looking for a specific hotel. Can you help me?,find+stay+details
+"Hi, I am looking for a cheap place to stay in the east. Can you help me?",find+stay+details
+My husband and I are celebrating our anniversary and want to find a great place to stay in town.,find+stay+details
+So you need to arrive on Thursday after 11:00 am to check in the hotel.,find+stay+details
+I'll be staying for 5 nights.,find+stay+details
+I looking for information about a hotel in the moderate price range that includes free wifi.,find+stay+details
+Thank you! Is there a guesthouse with free parking and wifi nearby?,find+stay+details
+I need a place to stay in the east that includes free wifi.,find+stay+details
+I am looking for a hotel with free wifi available for 3 people for 3 nights starting sunday,find+stay+details
+Do you have a hotel that is four stars then?,find+stay+details
+I would like a 4 star guesthouse that includes free parking.,find+stay+details
+How about a hotel?,find+stay+details
+I really need something in the north that has 4 stars. Can you double check? I would even take a guesthouse if there is one.,find+stay+details
+Do any of those hotels include free parking?,find+stay+details
+"The location doesn't matter, but I would prefer a guesthouse if possible.",find+stay+details
+Can you recommend hotels in cambridge?,find+stay+details
+I'd like the house to be in the south and have free wifi and parking.,find+stay+details
+I'm also looking for a place to stay. In the south preferably.,find+stay+details
+"So you are saying you have no hotel south, 4 star and cheap that has free parking like I wanted?",find+stay+details
+Yes I'm also looking for a place to stay.,find+stay+details
+I need a place to stay that's located in the east and that is of cheap price range.,find+stay+details
+"How about any type of hotel in Cambridge, guesthouse or other?",find+stay+details
+I would like it to be 4 stars.,find+stay+details
+Yes I'd like it for 4 people and 4 nights starting Saturday.,find+stay+details
+"I am fine with any price range, please pick a guesthouse.",find+stay+details
+"Yes, hello. I need a place to crash so I'm thinking a 0 star guesthouse",find+stay+details
+I want it to be a hotel and also include free wifi.,find+stay+details
+Are there any accommodations in the east part of town that off free parking?,find+stay+details
+I would like to stay at a guesthouse in the north.,find+stay+details
+"Nothing in the north, four star? I need that and cheap with free parking.",find+stay+details
+Please send me the address and phone number,request_info
+do not forget to include the reference number,request_info
+What is the final price?,request_info
+Where is it located?,request_info
