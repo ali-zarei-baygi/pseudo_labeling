@@ -16,21 +16,22 @@ At the end, we tried a combination of different approaches, to see if combining 
 
 
 Table 1. The accuracy of intent classification model: Supervised vs Semi-Supervised (leveraging unlabeled data through pseudo labeling and data augmentation)
-Models	Accuracy %
-Initial Model Trained on Labeled Data (supervised)	69.54
-Method 1 from Approach 1 + Method 1 from Approach 2 + synonym replacement	80.23
-Method 1 from Approach 1 + Method 2 from Approach 2 + synonym replacement	79.56
-Method 2 from Approach 1 + Method 1 from Approach 2 + synonym replacement	79.05
-Method 2 from Approach 1 + Method 2 from Approach 2 + synonym replacement	78.54
+| Models                                                                    | Accuracy % |
+| ------------------------------------------------------------------------- | ----------:|
+| Initial Model Trained on Labeled Data (supervised)	                    |  69.54     |
+| Method 1 from Approach 1 + Method 1 from Approach 2 + synonym replacement | 80.23      |
+| Method 1 from Approach 1 + Method 2 from Approach 2 + synonym replacement | 79.56      |
+| Method 2 from Approach 1 + Method 1 from Approach 2 + synonym replacement | 79.05      |
+| Method 2 from Approach 1 + Method 2 from Approach 2 + synonym replacement | 78.54      |
 
 
 
 
 References:
-[1] Zang, X., Rastogi, A., Sunkara, S., Gupta, R., Zhang, J. and Chen, J., 2020. Multiwoz 2.2: A dialogue dataset with additional annotation corrections and state tracking baselines. arXiv preprint arXiv:2007.12720.
-[2] T. Bunk, D. Varshneya, V. Vlasov, and A. Nichol, “DIET: Lightweight Language Understanding for Dialogue Systems,” arXiv. 2020.
-[3] Lee, D.H., 2013, June. Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks. In Workshop on challenges in representation learning, ICML (Vol. 3, No. 2, p. 896).
-[4] Reimers, N. and Gurevych, I., 2019. Sentence-bert: Sentence embeddings using siamese bert-networks. arXiv preprint arXiv:1908.10084.
-[5] Sohn, K., Berthelot, D., Carlini, N., Zhang, Z., Zhang, H., Raffel, C.A., Cubuk, E.D., Kurakin, A. and Li, C.L., 2020. Fixmatch: Simplifying semi-supervised learning with consistency and confidence. Advances in neural information processing systems, 33, pp.596-608.
-[6] Pavlick, E., Rastogi, P., Ganitkevitch, J., Van Durme, B. and Callison-Burch, C., 2015, July. PPDB 2.0: Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers) (pp. 425-430).
+[1] Zang, X., Rastogi, A., Sunkara, S., Gupta, R., Zhang, J. and Chen, J., 2020. Multiwoz 2.2: A dialogue dataset with additional annotation corrections and state tracking baselines. arXiv preprint arXiv:2007.12720.<br>
+[2] T. Bunk, D. Varshneya, V. Vlasov, and A. Nichol, “DIET: Lightweight Language Understanding for Dialogue Systems,” arXiv. 2020.<br>
+[3] Lee, D.H., 2013, June. Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks. In Workshop on challenges in representation learning, ICML (Vol. 3, No. 2, p. 896).<br>
+[4] Reimers, N. and Gurevych, I., 2019. Sentence-bert: Sentence embeddings using siamese bert-networks. arXiv preprint arXiv:1908.10084.<br>
+[5] Sohn, K., Berthelot, D., Carlini, N., Zhang, Z., Zhang, H., Raffel, C.A., Cubuk, E.D., Kurakin, A. and Li, C.L., 2020. Fixmatch: Simplifying semi-supervised learning with consistency and confidence. Advances in neural information processing systems, 33, pp.596-608.<br>
+[6] Pavlick, E., Rastogi, P., Ganitkevitch, J., Van Durme, B. and Callison-Burch, C., 2015, July. PPDB 2.0: Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers) (pp. 425-430).<br>
 
