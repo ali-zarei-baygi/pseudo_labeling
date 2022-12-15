@@ -3,7 +3,7 @@
 
 In this project, we used MultiWOZ 2.2 dataset [1], which is a large-scale human-human conversational corpus spanning over eight domains: Hotel, Restaurant, Taxi, Train, Attraction, Hospital, Bus, and Police. Although this dataset is annotated, the intents (active intent in MultiWOZ 2.2 dataset) are assigned widely on the conversations. Here, we used different pseudo labeling algorithms (semi-supervised) to assign more fine-grained intent to each sentence of the MultiWOZ 2.2 dataset (Table 1).<br>
 
-**Table 1.** Comparing the old and new labels for a conversation around Restaurant
+**Table 1.**
 | Utterances                                                   | Old Label	        | New Label                   |
 | ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | I want to find a cheap restaurant in the south part of town. | Find_Restaurant	| Find + Restaurant + Details |
@@ -31,7 +31,7 @@ At the end, we tried a combination of different approaches. **Table 2** shows th
 
 
 
-**Table 2.** The accuracy of intent classification model: Supervised vs Semi-Supervised (leveraging unlabeled data through pseudo labeling and data augmentation)
+**Table 2.**
 | Models                                                                    | Accuracy % |
 | ------------------------------------------------------------------------- | ----------:|
 | Initial Model Trained on Labeled Data (supervised)	                    |  69.54     |
