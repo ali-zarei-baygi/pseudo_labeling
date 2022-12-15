@@ -8,21 +8,13 @@ The first step for assigning accurate intents to utterances was to extract them 
 | Utterances                                                   | Old Label	        | New Label                   |
 | ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | I want to find a cheap restaurant in the south part of town. | Find_Restaurant	| Find + Restaurant + Details |
-| ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | Are there any other places?	                               | Find_Restaurant	| Request_Info                |
-| ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | sorry what is the food type of that restaurant ?             | Find_Restaurant	| Restaurant + Request_info   |
-| ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | what is the price range ?	                                   | Find_Restaurant	| Request_info                |
-| ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | What is their address and phone number?                      | Find_Restaurant	| Request_info                |
-| ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | Please go ahead and book a table for me                      | Book_Restaurant	| Book + Restaurant           |
-| ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | Book it for 4 persons. Give me the reference number          | Book_Restaurant	| Book + Request_info         |
-| ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | outside please!                                              | Book_Restaurant	| Details                     |
-| ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | No, thanks.                                                  | Book_Restaurant	| Deny + Thanks               |
 
 
