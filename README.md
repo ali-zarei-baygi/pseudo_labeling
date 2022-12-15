@@ -27,7 +27,7 @@ Table 1. The accuracy of intent classification model: Supervised vs Semi-Supervi
 
 
 
-References:
+**References**:**<br>
 [1] Zang, X., Rastogi, A., Sunkara, S., Gupta, R., Zhang, J. and Chen, J., 2020. Multiwoz 2.2: A dialogue dataset with additional annotation corrections and state tracking baselines. arXiv preprint arXiv:2007.12720.<br>
 [2] T. Bunk, D. Varshneya, V. Vlasov, and A. Nichol, “DIET: Lightweight Language Understanding for Dialogue Systems,” arXiv. 2020.<br>
 [3] Lee, D.H., 2013, June. Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks. In Workshop on challenges in representation learning, ICML (Vol. 3, No. 2, p. 896).<br>
