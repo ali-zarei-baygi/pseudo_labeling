@@ -1,9 +1,9 @@
 # Using pseudo_labeling to improve performance of text classification
 
 
-In this project, we used MultiWOZ 2.2 dataset [1], which is a large-scale human-human conversational corpus spanning over eight domains: Hotel, Restaurant, Taxi, Train, Attraction, Hospital, Bus, and Police. Although this dataset is annotated, the intents (active intent in MultiWOZ 2.2 dataset) are assigned widely on the conversations. Here, we used different pseudo labeling algorithms (semi-supervised) to assign more fine-grained intent to each sentence of the MultiWOZ 2.2 dataset (Table 1).<br>
+In this project, we used MultiWOZ 2.2 dataset [1], which is a large-scale human-human conversational corpus spanning over eight domains: Hotel, Restaurant, Taxi, Train, Attraction, Hospital, Bus, and Police. Although this dataset is annotated, the intents (active intent in MultiWOZ 2.2 dataset) are assigned widely on the conversations. Here, we used different pseudo labeling algorithms (semi-supervised) to assign more fine-grained intent to each sentence of the MultiWOZ 2.2 dataset (**Table 1**).<br>
 
-**Table 1.**
+**Table 1**
 | Utterances                                                   | Old Label	        | New Label                   |
 | ------------------------------------------------------------ |:------------------:| ---------------------------:|
 | I want to find a cheap restaurant in the south part of town. | Find_Restaurant	| Find + Restaurant + Details |
@@ -22,7 +22,7 @@ We used RASA DIET Classifier (a Dual Intent and Entity Transformer) as our inten
 
 * **Approach 1: Simple Pseudo Labeling**<br>
 
-* **Approach 2: Similarity Check Between sentence embedding of Pseudo Labeles and Initial Training Data**<br>
+* **Approach 2: Similarity Check Between Embedding of Pseudo Labeles and Initial Training Data**<br>
 
 * **Approach 3: Data Augmentation (FixMatch)**<br>
 
@@ -31,7 +31,7 @@ At the end, we tried a combination of different approaches. **Table 2** shows th
 
 
 
-**Table 2.**
+**Table 2**
 | Models                                                                    | Accuracy % |
 | ------------------------------------------------------------------------- | ----------:|
 | Initial Model Trained on Labeled Data (supervised)	                    |  69.54     |
