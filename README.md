@@ -20,9 +20,11 @@ In this project, we used MultiWOZ 2.2 dataset [1], which is a large-scale human-
 
 We used RASA DIET Classifier (a Dual Intent and Entity Transformer) as our intent classification algorithm [2]. The DIET Classifier was trained with the initial training data (12 samples per classes). Then, three main approaches were developed to improve the performance of this model leveraging the unlabeled data.<br>
 
-**Approach 1: Simple Pseudo Labeling**<br>
-**Approach 2: Similarity Check Between sentence embedding of Pseudo Labeles and Initial Training Data**<br>
-**Approach 3: Data Augmentation (FixMatch)**<br>
+* **Approach 1: Simple Pseudo Labeling**<br>
+
+* **Approach 2: Similarity Check Between sentence embedding of Pseudo Labeles and Initial Training Data**<br>
+
+* **Approach 3: Data Augmentation (FixMatch)**<br>
 
 
 At the end, we tried a combination of different approaches. **Table 2** shows the result. 
@@ -39,7 +41,7 @@ At the end, we tried a combination of different approaches. **Table 2** shows th
 | Method 2 from Approach 1 + Method 2 from Approach 2 + synonym replacement | 78.54      |
 * please see the main.py file for the detail information about each approach and method
 
-
+-------------------------------------------------------------------------------------------------------------
 
 **References**:<br>
 **[1]** Multiwoz 2.2: A dialogue dataset with additional annotation corrections and state tracking baselines.<br>
